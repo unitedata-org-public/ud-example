@@ -44,6 +44,25 @@
         <scope>system</scope>
         <systemPath>${basedir}/lib/commons-1.0.0-SNAPSHOT.jar</systemPath>
     </dependency>
+    <dependency>
+        <groupId>org.unitedata.eds</groupId>
+        <artifactId>ud-eds-sdk</artifactId>
+        <version>1.0</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/ud-eds-sdk-1.0.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>org.unitedata</groupId>
+        <artifactId>ud-data-consumer-sdk</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/lib/ud-data-consumer-sdk-1.0.0-SNAPSHOT.jar</systemPath>
+    </dependency>
+    <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>fastjson</artifactId>
+        <version>1.2.40</version>
+    </dependency>
     
   </dependencies>
 
